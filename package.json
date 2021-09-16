@@ -7,5 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.12.4",
+    "python": "0.0.4",
+    "webdriverio": "^7.12.4"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.12.4",
+    "@wdio/mocha-framework": "^7.12.4",
+    "@wdio/spec-reporter": "^7.10.1",
+    "@wdio/sync": "^7.12.5",
+    "chai": "^4.3.4",
+    "chromedriver": "^93.0.1",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
 }
