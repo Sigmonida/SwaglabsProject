@@ -17,6 +17,7 @@ describe('Buy a few things', function () {
         inventoryPage.onesieToTheCart.scrollIntoView();
         inventoryPage.onesieToTheCart.click();
         inventoryPage.shoppingCart.scrollIntoView();
+        expect(inventoryPage.shoppingCartBagde).toHaveText('2');
         inventoryPage.shoppingCart.click();
 
         cartPage.checkout.click();

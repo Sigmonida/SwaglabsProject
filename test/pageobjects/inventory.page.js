@@ -26,6 +26,8 @@ class InventoryPage extends Page {
     get tShirtRedToTheCart() { return $('#add-to-cart-test\.allthethings\(\)-t-shirt-\(red\)') };
 
     get shoppingCart() { return $('#shopping_cart_container') };
+    get shoppingCartBagde() { return $('.shopping_cart_badge') };
+    
 
 }
 
